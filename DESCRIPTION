@@ -1,11 +1,13 @@
 Package: ggseg3d
 Title: Interactive 3D Brain Atlas Visualization
-Version: 2.0.0
+Version: 2.1.0
 Authors@R: c(
     person("Athanasia Mo", "Mowinckel", , "a.m.mowinckel@psykologi.uio.no", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-5756-0223")),
     person("Didac", "Vidal-Piñeiro", , "d.v.pineiro@psykologi.uio.no", role = "aut",
-           comment = c(ORCID = "0000-0001-9997-9156"))
+           comment = c(ORCID = "0000-0001-9997-9156")),
+    person("Center for Lifespan Changes in Brain and Cognition (LCBC), University of Oslo",
+           role = "cph")
   )
 Description: Plot brain atlases as interactive 3D meshes using 'Three.js'
     via 'htmlwidgets', or render publication-quality static images through
@@ -21,8 +23,8 @@ BugReports: https://github.com/ggsegverse/ggseg3d/issues
 Depends: R (>= 4.1)
 Imports: cli, dplyr, ggseg.formats, htmlwidgets, knitr, lifecycle,
         rlang, scales, tidyr, webshot2
-Suggests: png, rayshader, rgl, rmarkdown, shiny, spelling, testthat (>=
-        3.0.0)
+Suggests: ggseg.meshes, png, rayshader, rgl, rmarkdown, shiny,
+        spelling, testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Config/Needs/website: ggsegverse/ggseg.docs
 Config/testthat/edition: 3
@@ -31,11 +33,13 @@ Encoding: UTF-8
 Language: en-US
 RoxygenNote: 7.3.3
 NeedsCompilation: no
-Packaged: 2026-02-20 18:32:40 UTC; athanasm
+Packaged: 2026-04-09 10:39:54 UTC; athanasm
 Author: Athanasia Mo Mowinckel [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-5756-0223>),
   Didac Vidal-Piñeiro [aut] (ORCID:
-    <https://orcid.org/0000-0001-9997-9156>)
+    <https://orcid.org/0000-0001-9997-9156>),
+  Center for Lifespan Changes in Brain and Cognition (LCBC), University
+    of Oslo [cph]
 Maintainer: Athanasia Mo Mowinckel <a.m.mowinckel@psykologi.uio.no>
 Repository: CRAN
-Date/Publication: 2026-02-20 18:50:02 UTC
+Date/Publication: 2026-04-09 11:00:02 UTC
