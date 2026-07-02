@@ -1,6 +1,6 @@
 Package: ggseg3d
 Title: Interactive 3D Brain Atlas Visualization
-Version: 2.1.1
+Version: 2.1.2
 Authors@R: c(
     person("Athanasia Mo", "Mowinckel", , "a.m.mowinckel@psykologi.uio.no", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-5756-0223")),
@@ -35,7 +35,7 @@ Encoding: UTF-8
 Language: en-US
 RoxygenNote: 7.3.3
 NeedsCompilation: no
-Packaged: 2026-04-22 10:20:29 UTC; athanasm
+Packaged: 2026-07-02 19:33:45 UTC; athanasm
 Author: Athanasia Mo Mowinckel [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-5756-0223>),
   Didac Vidal-Piñeiro [aut] (ORCID:
@@ -46,4 +46,4 @@ Author: Athanasia Mo Mowinckel [aut, cre] (ORCID:
     LICENSE.note)
 Maintainer: Athanasia Mo Mowinckel <a.m.mowinckel@psykologi.uio.no>
 Repository: CRAN
-Date/Publication: 2026-04-22 11:00:02 UTC
+Date/Publication: 2026-07-02 19:50:02 UTC
